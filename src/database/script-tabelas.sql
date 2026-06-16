@@ -26,6 +26,13 @@ CREATE TABLE usuario (
 	FOREIGN KEY (fk_empresa) REFERENCES empresa(id)
 );
 
+CREATE TABLE contato (
+	id int primary key auto_increment,
+	nome varchar(50),
+	email varchar(70),
+	motivo varchar(500)
+);
+
 CREATE TABLE aviso (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	titulo VARCHAR(100),
