@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Barlow', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
+  background-color: rgb(238, 239, 228);
 }
 
 :root {
@@ -23,7 +23,7 @@ body {
 
 .header {
   height: var(--tamanho-header);
-  border-bottom: 2px solid #32b9cd;
+  border-bottom: 2px solid #cd3299;
 }
 
 .header .container {
@@ -34,7 +34,7 @@ body {
 
 .header a {
   text-decoration: none;
-  color: #e3b062;
+  color: #cd3299;
 }
 
 .agora {
@@ -51,7 +51,7 @@ body {
 }
 
 .titulo {
-  color: #32b9cd;
+  color: #cd3299;
   width: fit-content;
   font-weight: 500;
 }
@@ -65,8 +65,9 @@ body {
 .banner {
   height: var(--tamanho-banner);
   color: white;
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+  background-image: url('../assets/imgs/FLORES-FUNDO.png');
   background-size: cover;
+  background-position: center 100%;
 }
 
 .banner .container {
@@ -79,7 +80,10 @@ body {
   width: 50%;
   margin: 0;
   padding: 0;
-  font-size: 36px;
+  font-size: 46px;
+  color: #cd3299;
+  margin-bottom: 370px;
+  text-align: center;
 }
 
 .banner .container span {
@@ -89,7 +93,7 @@ body {
 /* MISSÃO VISÃO VALORES */
 
 .social {
-  background-color: #e5e5e5;
+  background-color: #edeee8;
   display: flex;
 }
 
@@ -121,7 +125,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #32b9cd;
+  background-color: #cd326b;
   height: 150px;
   color: #fff;
   display: flex;
