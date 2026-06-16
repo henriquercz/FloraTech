@@ -95,6 +95,7 @@ body {
 .social {
   background-color: #edeee8;
   display: flex;
+  padding: 75px;
 }
 
 .social .container {
