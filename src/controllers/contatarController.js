@@ -13,11 +13,11 @@ function contatar(req, res) {
     } else if (email == undefined) {
         res.status(400).send("Seu email está undefined!");
     } else if (motivo == undefined) {
-        res.status(400).send("Sua senha está undefined!");
+        res.status(400).send("Seu motivo está undefined!");
     }  else {
 
         // Passe os valores como parâmetro e vá para o arquivo contatarModel.js
-        contatarModel.cadastrar(nome, email, motivo)
+        contatarModel.contatar(nome, email, motivo)
             .then(
                 function (resultado) {
                     res.json(resultado);
