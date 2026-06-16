@@ -41,29 +41,31 @@
     <!-- simulador inicio -->
     <div class="simulador">
         <div class="container">
-            <h2>Simulador</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
-                dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam
-                laboriosam eaque alias. Reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium tempora architecto sint fugit dolorum? Ipsum laborum magnam similique labore, voluptate amet
-                reprehenderit rem ab blanditiis quisquam laboriosam eaque alias. Reiciendis.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
-                dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam
-                laboriosam eaque alias. Reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium tempora architecto sint fugit dolorum? Ipsum laborum magnam similique labore, voluptate amet
-                reprehenderit rem ab blanditiis quisquam laboriosam eaque alias. Reiciendis.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
-                dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam
-                laboriosam eaque alias. Reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium tempora architecto sint fugit dolorum? Ipsum laborum magnam similique labore, voluptate amet
-                reprehenderit rem ab blanditiis quisquam laboriosam eaque alias. Reiciendis.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
-                dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam
-                laboriosam eaque alias. Reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium tempora architecto sint fugit dolorum? Ipsum laborum magnam similique labore, voluptate amet
-                reprehenderit rem ab blanditiis quisquam laboriosam eaque alias. Reiciendis.</p>
-
+            <h2>Entre em contato</h2>
+            <div class="campo">
+                <span>Nome da Empresa:</span>
+                <input id="nome_input" type="text" placeholder="Seu nome" />
+            </div>
+            <div class="campo">
+                <span>E-mail:</span>
+                <input id="email_input" type="text" placeholder="meuemail@provedor.com" />
+            </div>
+            <div class="campo">
+                <span>Motivo do contato:</span>
+                <input id="motivo_input" type="text" placeholder="Contratar" />
+            </div>
+            <button class="botao" onclick="contatar()">Contatar</button>
         </div>
+        <div id="div_aguardar" class="loading-div">
+            <img src="./assets/circle-loading.gif" id="loading-gif" />
+        </div>
+
+        <div id="div_erros_login"></div>
+    </div>
+    </div>
+    </div>
+
+    </div>
     </div>
     <!-- simulador fim -->
 
@@ -78,5 +80,11 @@
 
 
 </body>
+
+<script>
+    function contatar() {
+    
+    }
+</script>
 
 </html>
