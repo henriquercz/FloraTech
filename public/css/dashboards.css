@@ -13,6 +13,10 @@ body {
   justify-content: center;
 }
 
+.dash-right .container {
+  color: #cd3299;
+}
+
 .dash-right .avisos {
   width: 100%;
   color: rgb(216, 216, 216);
@@ -44,7 +48,14 @@ body {
 
 .dash-right .avisos .div-form textarea {
   width: 95%;
-  border: 3px solid #e6005a;
+  border: 3px solid #cd3299;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dash-right .avisos .div-form .textarea_titulo {
+  width: 95%;
+  border: 3px solid #cd3299;
   background-color: white;
   border-radius: 5px;
 }
@@ -58,7 +69,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #cd3299;
   width: 120px;
 }
 
@@ -71,7 +82,7 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: #e6005a;
+  background-color: #cd3299;
   width: 80px;
 }
 
@@ -82,7 +93,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #e6005a;
+  border-bottom: 3px solid #cd3299;
   padding: 20px;
 }
 
@@ -95,7 +106,7 @@ body {
 }
 
 .div-results .feed-container {
-  background-color: #212124;
+  background-color: white;
   border-radius: 5px;
   margin-bottom: 80px;
 }
@@ -112,7 +123,7 @@ body {
 /* pagina graficos */
 
 .dash-header {
-  background-color: #212124;
+  background-color: white;
 }
 
 .dash {
@@ -286,7 +297,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: #e6005a;
+  color: #cd3299;
   background-color: white;
   margin: 5px;
   border-radius: 3px;
@@ -295,11 +306,11 @@ body {
 
 .btn-pink {
   color: white;
-  background-color: #e6005a;
+  background-color: #cd3299;
 }
 
 .btn-white {
-  color: #e6005a;
+  color: #cd3299;
   background-color: white;
 
 }
@@ -348,24 +359,26 @@ canvas {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-right: 3px solid #32b9cd;
-  background-color: #212124;
+  border-right: 3px solid #cd3299;
+  background-color: rgb(238, 239, 228);
 }
 
 .dash-right {
   display: flex;
-  width: 70%;
+  width: 80%;
   height: fit-content;
-  background-color: #161618;
+  background-color: white;
   position: relative;
   top: 0;
-  left: 25%;
+  left: 20%;
   height: 100vh;
   overflow: auto;
+  background-image: url(../assets/imgs/Pink_purple_floral_frame_background_with_watercolor.jpg);
+  background-size: cover;
 }
 
 .header-left h1 {
-  color: #32b9cd;
+  color: #cd3299;
 }
 
 .hello {
@@ -375,7 +388,7 @@ canvas {
 }
 
 .hello h3 {
-  color: #e3b062;
+  color: #ce82b5;
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -387,7 +400,7 @@ canvas {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: #e6005a;
+  background-color: #cd3299;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -396,14 +409,14 @@ canvas {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid #e6005a;
+  border: 3px solid #cd3299;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color: #e6005a;
+  color: #cd3299;
   padding: 0;
   margin: 0;
 }
@@ -418,7 +431,7 @@ canvas {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #32b9cd;
+  background-color: #661c4e;
   color: white;
   border-radius: 10px;
   text-align: center;
