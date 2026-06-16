@@ -95,6 +95,7 @@ body {
 .social {
   background-color: #edeee8;
   display: flex;
+  padding: 75px;
 }
 
 .social .container {
@@ -126,7 +127,7 @@ body {
 
 .footer {
   background-color: #cd326b;
-  height: 150px;
+  height: 70px;
   color: #fff;
   display: flex;
   font-size: 15px;
@@ -145,7 +146,6 @@ body {
 
 .login {
   height: var(--tamanho-login);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
   background-size: cover;
 }
 
@@ -158,7 +158,7 @@ body {
 .card {
   width: 50%;
   background-color: #e5e5e5;
-  border-radius: 10px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -187,7 +187,7 @@ body {
 }
 
 .formulario input {
-  border: 2px solid #32b9cd;
+  border: 2px solid #ede73a;
   text-align: center;
   border-radius: 10px;
   margin: 0;
